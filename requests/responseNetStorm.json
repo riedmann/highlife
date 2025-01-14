@@ -1,0 +1,308 @@
+{
+  "correlationId": "f1c5d1f9753e4062af977e5faff9517f",
+  "tag": [],
+  "status": "OK",
+  "suafHeader": {
+    "inventoryCode": "NETSTORMING",
+    "runTransactional": false,
+    "languagePreference": "DE"
+  },
+  "hotelResults": [
+    {
+      "hotel": {
+        "propertyCode": "55192",
+        "propertyName": "CA' ALVISE",
+        "address": { "addressLine": ["San Marco 3673, 30124"] },
+        "starRatingCode": "0"
+      },
+      "roomResults": [
+        {
+          "room": {
+            "roomCode": "7",
+            "roomDescription": "Classic Double/Twin Room Gold - One Child Non Refundable",
+            "roomBedding": "dbl"
+          },
+          "roomRateResults": [
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NRF.YTY1OTdh.DBT",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "677.84" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "677.84" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NRF.YTY1OTdh.DBT#677.84",
+                "searchCorrelationId": "b416d54e-7ad8-4bfb-a228-b84510039560"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NRF.YTY1OTdh.DBT#677.84",
+                "searchCorrelationId": "b416d54e-7ad8-4bfb-a228-b84510039560"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "Non-refundable rate. No amendments permitted",
+                "Exclusive discount",
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Classic Double/Twin Room Gold - one child NON REFUNDABLE"
+              ]
+            },
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NOR.NmVlM2Fh.DBT",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "775.57" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "775.57" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NOR.NmVlM2Fh.DBT#775.57",
+                "searchCorrelationId": "966dc0ce-62ff-4868-8ac1-706aa8c706ff"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.7.RB.C.ZGJkMDVj.ST-1.BB.NOR.NmVlM2Fh.DBT#775.57",
+                "searchCorrelationId": "966dc0ce-62ff-4868-8ac1-706aa8c706ff"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Classic Double/Twin Room Gold - one child"
+              ]
+            }
+          ]
+        },
+        {
+          "room": {
+            "roomCode": "9",
+            "roomDescription": "Deluxe Triple Room",
+            "roomBedding": "dbl"
+          },
+          "roomRateResults": [
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NOR.YWYyZDI3.TPL",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "858.24" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "858.24" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NOR.YWYyZDI3.TPL#858.24",
+                "searchCorrelationId": "3e6c4f43-7b6f-455b-bd88-7d355b052639"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NOR.YWYyZDI3.TPL#858.24",
+                "searchCorrelationId": "3e6c4f43-7b6f-455b-bd88-7d355b052639"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Triple Room"
+              ]
+            },
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NRF.OTA2MDhk.TPL",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "750.10" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "750.10" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NRF.OTA2MDhk.TPL#750.10",
+                "searchCorrelationId": "b9891cad-461d-482b-b21a-2f993b605c20"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.9.RB.C.ZGJkMDVj.DX.BB.NRF.OTA2MDhk.TPL#750.10",
+                "searchCorrelationId": "b9891cad-461d-482b-b21a-2f993b605c20"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "Non-refundable rate. No amendments permitted",
+                "Exclusive discount",
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Triple Room NON REFUNDABLE"
+              ]
+            }
+          ]
+        },
+        {
+          "room": {
+            "roomCode": "143",
+            "roomDescription": "Deluxe Double Room With Canal View",
+            "roomBedding": "dbl"
+          },
+          "roomRateResults": [
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NOR.NDI0Yjg4.DBL",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "795.18" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "795.18" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NOR.NDI0Yjg4.DBL#795.18",
+                "searchCorrelationId": "ae5a3f99-0b7f-46fb-b0f8-bd525a0b9cd4"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NOR.NDI0Yjg4.DBL#795.18",
+                "searchCorrelationId": "ae5a3f99-0b7f-46fb-b0f8-bd525a0b9cd4"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Double room with Canal View"
+              ]
+            },
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NRF.Mzg1NzAy.DBL",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "694.98" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "694.98" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NRF.Mzg1NzAy.DBL#694.98",
+                "searchCorrelationId": "e4394e55-00c4-464e-9642-50646543fc28"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.143.RB.C.ZGJkMDVj.DX-VQ.BB.NRF.Mzg1NzAy.DBL#694.98",
+                "searchCorrelationId": "e4394e55-00c4-464e-9642-50646543fc28"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "Non-refundable rate. No amendments permitted",
+                "Exclusive discount",
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Double room with Canal View NON REFUNDABLE"
+              ]
+            }
+          ]
+        },
+        {
+          "room": {
+            "roomCode": "8",
+            "roomDescription": "Deluxe Double Or Twin Room Non Refundable",
+            "roomBedding": "dbl"
+          },
+          "roomRateResults": [
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NRF.N2MyMTA4.DBT",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "647.31" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "647.31" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NRF.N2MyMTA4.DBT#647.31",
+                "searchCorrelationId": "b557ae3b-f12f-469c-966b-f54c34a301d1"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NRF.N2MyMTA4.DBT#647.31",
+                "searchCorrelationId": "b557ae3b-f12f-469c-966b-f54c34a301d1"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "Non-refundable rate. No amendments permitted",
+                "Exclusive discount",
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Double or Twin Room NON REFUNDABLE"
+              ]
+            },
+            {
+              "roomRate": {
+                "rateCode": "0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NOR.YWExMTk0.DBT",
+                "mealTypeCode": "RB-C",
+                "roomPrice": {
+                  "totalPrice": { "currency": "EUR", "amount": "740.64" },
+                  "totalTax": { "currency": "EUR", "amount": "0.00" },
+                  "basePrice": { "currency": "EUR", "amount": "740.64" },
+                  "commission": { "currency": "EUR", "amount": "0.00" },
+                  "taxIncluded": false
+                },
+                "refundable": false
+              },
+              "offerId": {
+                "inventoryCode": "NETSTORMING",
+                "offerReference": "dbl#4698973#0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NOR.YWExMTk0.DBT#740.64",
+                "searchCorrelationId": "7fbd92ab-279c-4f68-a7e3-b51d5a56b3a4"
+              },
+              "bookingKey": {
+                "vendorCode": "NETSTORMING",
+                "vendorBookingKey": "dbl#4698973#0xa9.55192.8.RB.C.ZGJkMDVj.SU.BB.NOR.YWExMTk0.DBT#740.64",
+                "searchCorrelationId": "7fbd92ab-279c-4f68-a7e3-b51d5a56b3a4"
+              },
+              "availability": "1",
+              "supplierRemarks": [
+                "BED AND BREAKFAST",
+                "Attention: the requested bedding type is not guaranteed.",
+                "Deluxe Double or Twin Room"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "checkin": "2023-11-06",
+  "checkout": "2023-11-09"
+}
