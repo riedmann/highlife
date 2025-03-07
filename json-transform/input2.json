@@ -1,12 +1,6 @@
 {
   "header": {
-    "target": "netstorm",
-    "version": "1.6.3",
-    "authentication": {
-      "actor": "highlife1",
-      "user": "xmluser",
-      "password": "H"
-    }
+    "target": "netstorm"
   },
   "request": {
     "hotelId": 898747,
