@@ -15,11 +15,10 @@ module.exports = function basicTransform(json) {
       json.request.guests +
       "&nationality=" +
       json.request.nationality,
+    method: "GET",
     header: {
-      method: "GET",
-      authentication: {
-        bearer: "439ef03b7b504104aa8584578d3cc1ae",
-      },
+      Authorization: "Bearer 439ef03b7b504104aa8584578d3cc1ae",
+      "Accept-Encoding": "application/gzip",
     },
     body: {},
   };

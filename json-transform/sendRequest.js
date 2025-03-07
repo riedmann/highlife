@@ -1,13 +1,12 @@
 const https = require("https");
+const zlib = require("zlib");
 
 async function sendRequest(inhouseJson, callback) {
   console.log("inhouse", inhouseJson);
 
   const options = {
-    headers: {
-      Authorization: `Bearer ${inhouseJson.header.authentication.bearer}`,
-      "Accept-Encoding": "gzip",
-    },
+    method: inhouseJson.method,
+    headers: inhouseJson.header,
   };
 
   console.log("url", inhouseJson.url);
@@ -23,8 +22,13 @@ async function sendRequest(inhouseJson, callback) {
       });
 
       // The whole response has been received.
-      response.on("end", () => {
-        console.log("-------------- result ----------");
+      response.on("end", async () => {
+        console.log("--------------");
+
+        console.log("end", data);
+        console.log(data[0], data[1]);
+
+        // let unzuipped = await unzipData(data);
 
         callback(null, data);
       });
@@ -37,3 +41,16 @@ async function sendRequest(inhouseJson, callback) {
 }
 
 module.exports = sendRequest;
+
+function unzipData(data) {
+  // Simulated compressed binary data (replace this with your actual Buffer)
+  const compressedData = Buffer.from(data, "binary");
+
+  zlib.gunzip(compressedData, (err, decompressed) => {
+    if (err) {
+      console.error("❌ Error decompressing:", err);
+    } else {
+      console.log("✅ Decompressed Data:", decompressed.toString());
+    }
+  });
+}
