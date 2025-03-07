@@ -4,7 +4,7 @@ const sendRequest = require("./sendRequest");
 
 // Load available transformations dynamically
 const transformations = {};
-const transformDir = path.join(__dirname, "transform");
+const transformDir = path.join(__dirname, "transformers");
 fs.readdirSync(transformDir).forEach((file) => {
   if (file.endsWith(".js")) {
     const transformName = path.basename(file, ".js");

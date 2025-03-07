@@ -10,15 +10,6 @@ async function transformXml(xmlString, xsltString) {
     xmlParser.xmlParse(xsltString)
   );
 
-  //console.log("out" + outXmlString);
-
-  // Or using .then()
-  // xslt
-  //   .xsltProcess(xmlParser.xmlParse(xmlString), xmlParser.xmlParse(xsltString))
-  //   .then((output) => {
-  //     console.log(output);
-  //   });
-
   return outXmlString; // Optionally return the result
 }
 

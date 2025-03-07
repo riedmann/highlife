@@ -7,7 +7,6 @@ async function sendRequest(inhouseJson, callback) {
 
   if (inhouseJson.bodytype == "xml") {
     body = jsonToXml(inhouseJson.xmlbody);
-    console.log("------ inside ------");
   }
 
   const options = {
@@ -28,14 +27,11 @@ async function sendRequest(inhouseJson, callback) {
 
     // The whole response has been received.
     response.on("end", async () => {
-      console.log("--------------");
-      console.log("end", data);
-      callback(null, data);
+      callback(data);
     });
   });
 
   req.on("error", (err) => {
-    console.log("error");
     callback(err);
   });
 
@@ -46,22 +42,8 @@ async function sendRequest(inhouseJson, callback) {
 
 module.exports = sendRequest;
 
-function unzipData(data) {
-  // Simulated compressed binary data (replace this with your actual Buffer)
-  const compressedData = Buffer.from(data, "binary");
-
-  zlib.gunzip(compressedData, (err, decompressed) => {
-    if (err) {
-      console.error("❌ Error decompressing:", err);
-    } else {
-      console.log("✅ Decompressed Data:", decompressed.toString());
-    }
-  });
-}
-
 function jsonToXml(json) {
   const xml = js2xmlparser.parse("envelope", json); // "root" is the XML root element
-  console.log("xml", xml);
 
   //const options = { compact: true, ignoreComment: true, spaces: 4 };
   return xml;
