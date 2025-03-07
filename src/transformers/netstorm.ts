@@ -1,7 +1,8 @@
-module.exports = function netstormTransform(json) {
+import { InhouseFormat } from "../types";
+
+module.exports = function netstormTransform(json: InhouseFormat) {
   return {
     url: "https://bridge.netstorming.net/kalima/call.php",
-
     method: "POST",
     bodytype: "xml",
     header: {},
@@ -12,7 +13,6 @@ module.exports = function netstormTransform(json) {
         password: "High_Life!",
         version: "1.6.3",
       },
-
       query: {
         "@": { type: "availability", product: "hotel" },
 

@@ -6,7 +6,7 @@ const ihyper = "./testdata/inhouse/input1.json";
 const sendRequestFunction = require("./src/sendRequest");
 
 // setting input file for testing
-const input = ihyper;
+const input = inetstorms;
 
 // reading file
 const rawData = fsFunc.readFileSync(input, "utf-8");
@@ -19,5 +19,8 @@ const result = transformJsonToTargetFormat(jsonData);
 
 sendRequestFunction(result, (data) => {
   // console.log("--------  Response -------");
-  console.log("Result is here");
+
+  if (result.bodytype == "xml") {
+    console.log("its xml");
+  }
 });

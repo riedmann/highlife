@@ -1,4 +1,4 @@
-import { ApiRequest, InhouseFormat } from "../types";
+import { InhouseFormat } from "../types";
 
 module.exports = function basicTransform(json: InhouseFormat) {
   return {
