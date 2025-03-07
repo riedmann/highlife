@@ -12,7 +12,7 @@ fs.readdirSync(transformDir).forEach((file) => {
   }
 });
 
-function transformJson(inputFilePath) {
+module.exports = function transformJsonToTargetFormat(inputFilePath) {
   // Read JSON file
   const rawData = fs.readFileSync(inputFilePath, "utf-8");
   const jsonData = JSON.parse(rawData);
@@ -32,13 +32,4 @@ function transformJson(inputFilePath) {
   //fs.writeFileSync(outputFilePath, JSON.stringify(transformedData, null, 2));
   console.log(`✅ Transformation '${transformType}' applied! `);
   return transformedData;
-}
-
-// Example usage
-const inputFilePath = "input1.json";
-
-const result = transformJson(inputFilePath);
-sendRequest(result, (data) => {
-  console.log("Done", data);
-});
-console.log("result", result);
+};

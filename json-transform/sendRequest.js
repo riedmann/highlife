@@ -1,43 +1,47 @@
 const https = require("https");
 const zlib = require("zlib");
+const js2xmlparser = require("js2xmlparser");
 
 async function sendRequest(inhouseJson, callback) {
-  console.log("inhouse", inhouseJson);
+  let body = JSON.stringify(inhouseJson.body);
+
+  if (inhouseJson.bodytype == "xml") {
+    body = jsonToXml(inhouseJson.xmlbody);
+    console.log("------ inside ------");
+  }
 
   const options = {
     method: inhouseJson.method,
-    headers: inhouseJson.header,
+    headers: {
+      ...inhouseJson.header,
+      "Content-Length": Buffer.byteLength(body),
+    },
   };
 
-  console.log("url", inhouseJson.url);
+  const req = https.request(inhouseJson.url, options, (response) => {
+    let data = "";
 
-  https
-    .get(inhouseJson.url, options, (response) => {
-      let data = "";
-      //console.log("response", response);
-
-      // A chunk of data has been received.
-      response.on("data", (chunk) => {
-        data += chunk;
-      });
-
-      // The whole response has been received.
-      response.on("end", async () => {
-        console.log("--------------");
-
-        console.log("end", data);
-        console.log(data[0], data[1]);
-
-        // let unzuipped = await unzipData(data);
-
-        callback(null, data);
-      });
-    })
-    .on("error", (err) => {
-      console.log("error");
-
-      callback(err);
+    // A chunk of data has been received.
+    response.on("data", (chunk) => {
+      data += chunk;
     });
+
+    // The whole response has been received.
+    response.on("end", async () => {
+      console.log("--------------");
+      console.log("end", data);
+      callback(null, data);
+    });
+  });
+
+  req.on("error", (err) => {
+    console.log("error");
+    callback(err);
+  });
+
+  // Write the body to the request
+  req.write(body);
+  req.end();
 }
 
 module.exports = sendRequest;
@@ -53,4 +57,12 @@ function unzipData(data) {
       console.log("✅ Decompressed Data:", decompressed.toString());
     }
   });
+}
+
+function jsonToXml(json) {
+  const xml = js2xmlparser.parse("envelope", json); // "root" is the XML root element
+  console.log("xml", xml);
+
+  //const options = { compact: true, ignoreComment: true, spaces: 4 };
+  return xml;
 }

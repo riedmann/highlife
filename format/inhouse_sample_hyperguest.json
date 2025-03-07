@@ -1,12 +1,7 @@
 {
   "header": {
     "target": "hyperguest",
-    "version": "1.6.3",
-    "authentication": {
-      "actor": "highlife1",
-      "user": "xmluser",
-      "password": "H"
-    }
+    "version": "1.6.3"
   },
   "request": {
     "hotelId": 19912,

@@ -20,6 +20,7 @@ module.exports = function basicTransform(json) {
       Authorization: "Bearer 439ef03b7b504104aa8584578d3cc1ae",
       "Accept-Encoding": "application/gzip",
     },
+    bodytype: "json",
     body: {},
   };
 };

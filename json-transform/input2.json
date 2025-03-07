@@ -9,10 +9,11 @@
     }
   },
   "request": {
-    "hotelId": 19912,
-    "checkIn": "2025-05-01",
+    "hotelId": 898747,
+    "checkIn": "2025-07-14",
+    "checkOut": "2025-07-21",
     "nights": 2,
-    "guests": 4,
+    "guests": 1,
     "nationality": "DE"
   }
 }
