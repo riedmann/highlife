@@ -2,17 +2,19 @@ const fs = require("fs");
 const path = require("path");
 
 // Load available transformations dynamically
-const transformations = {};
+const transformations: any = {};
 const transformDir = path.join(__dirname, "transformers");
-fs.readdirSync(transformDir).forEach((file) => {
+fs.readdirSync(transformDir).forEach((file: any) => {
   if (file.endsWith(".ts")) {
     const transformName = path.basename(file, ".ts");
     transformations[transformName] = require(path.join(transformDir, file));
   }
 });
 
-module.exports = function transformJsonToTargetFormat(jsonData) {
+module.exports = function transformJsonToTargetFormat(jsonData: any) {
   // Read JSON file
+
+  console.log("inside transform", jsonData);
 
   // Get transformation type from input JSON
   const transformType = jsonData.header.target;

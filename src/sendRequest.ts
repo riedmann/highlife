@@ -18,11 +18,11 @@ async function sendRequest(inhouseJson: ApiRequest): Promise<any> {
   };
 
   return new Promise((resolve, reject) => {
-    const req = https.request(inhouseJson.url, options, (response) => {
+    const req = https.request(inhouseJson.url, options, (response: any) => {
       let data = "";
 
       // A chunk of data has been received.
-      response.on("data", (chunk) => {
+      response.on("data", (chunk: any) => {
         data += chunk;
       });
 
@@ -32,7 +32,7 @@ async function sendRequest(inhouseJson: ApiRequest): Promise<any> {
       });
     });
 
-    req.on("error", (err) => {
+    req.on("error", (err: any) => {
       reject(err);
     });
 
