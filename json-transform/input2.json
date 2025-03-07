@@ -1,0 +1,18 @@
+{
+  "header": {
+    "target": "netstorm",
+    "version": "1.6.3",
+    "authentication": {
+      "actor": "highlife1",
+      "user": "xmluser",
+      "password": "H"
+    }
+  },
+  "request": {
+    "hotelId": 19912,
+    "checkIn": "2025-05-01",
+    "nights": 2,
+    "guests": 4,
+    "nationality": "DE"
+  }
+}

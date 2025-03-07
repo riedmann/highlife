@@ -1,0 +1,23 @@
+<envelope>
+    <header>
+        <actor>highlife</actor>
+        <user>xmluser</user>
+        <password>highxml</password>
+        <version>1.6.1</version>
+        <timestamp>20250203182242</timestamp>
+    </header>
+    <query type="availability" product="hotel">
+        <nationality>AT</nationality>
+        <filters>
+            <filter>AVAILONLY</filter>
+            <filter>EXCLUDEDYNAMIC</filter>
+        </filters>
+        <checkin date="2025-03-01" />
+        <checkout date="2025-03-08" />
+        <city code="VCEI" />
+        <hotel id="36051" />
+        <details>
+            <room extrabed="false" occupancy="2" required="1" />
+        </details>
+    </query>
+</envelope>

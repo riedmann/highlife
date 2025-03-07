@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<envelope>
+    <header>
+        <version port="4002" host="ns002test.cloud.netstorming.net">1.7.1</version>
+        <timestamp>20250114104408</timestamp>
+    </header>
+    <response type="zones" product="hotel">
+        <zones timestamp="20030423170100">
+            <zone>
+                <code value="VCE5" />
+                <names>
+                    <name language="ru" value="BIENNALE" />
+                    <name language="fr" value="BIENNALE" />
+                    <name language="en" value="BIENNALE" />
+                    <name language="zh" value="BIENNALE" />
+                    <name language="hr" value="BIENNALE" />
+                    <name language="ca" value="BIENNALE" />
+                    <name language="de" value="BIENNALE" />
+                    <name language="it" value="BIENNALE" />
+                    <name language="pt-br" value="BIENNALE" />
+                    <name language="es" value="BIENNALE" />
+                    <name language="sl" value="BIENNALE" />
+                    <name language="ja" value="BIENNALE" />
+                    <name language="pl" value="BIENNALE" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE15" />
+                <names>
+                    <name language="ru" value="CANNAREGIO" />
+                    <name language="fr" value="CANNAREGIO" />
+                    <name language="en" value="CANNAREGIO" />
+                    <name language="zh" value="CANNAREGIO" />
+                    <name language="hr" value="CANNAREGIO" />
+                    <name language="ca" value="CANNAREGIO" />
+                    <name language="de" value="CANNAREGIO" />
+                    <name language="it" value="CANNAREGIO" />
+                    <name language="pt-br" value="CANNAREGIO" />
+                    <name language="es" value="CANNAREGIO" />
+                    <name language="sl" value="CANNAREGIO" />
+                    <name language="ja" value="CANNAREGIO" />
+                    <name language="pl" value="CANNAREGIO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE6" />
+                <names>
+                    <name language="ru" value="GHETTO EBRAICO" />
+                    <name language="fr" value="GHETTO EBRAICO" />
+                    <name language="en" value="GHETTO EBRAICO" />
+                    <name language="zh" value="GHETTO EBRAICO" />
+                    <name language="hr" value="GHETTO EBRAICO" />
+                    <name language="ca" value="GHETTO EBRAICO" />
+                    <name language="de" value="GHETTO EBRAICO" />
+                    <name language="it" value="GHETTO EBRAICO" />
+                    <name language="pt-br" value="GHETTO EBRAICO" />
+                    <name language="es" value="GHETTO EBRAICO" />
+                    <name language="sl" value="GHETTO EBRAICO" />
+                    <name language="ja" value="GHETTO EBRAICO" />
+                    <name language="pl" value="GHETTO EBRAICO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE7" />
+                <names>
+                    <name language="ru" value="GIUDECCA" />
+                    <name language="fr" value="GIUDECCA" />
+                    <name language="en" value="GIUDECCA" />
+                    <name language="zh" value="GIUDECCA" />
+                    <name language="hr" value="GIUDECCA" />
+                    <name language="ca" value="GIUDECCA" />
+                    <name language="de" value="GIUDECCA" />
+                    <name language="it" value="GIUDECCA" />
+                    <name language="pt-br" value="GIUDECCA" />
+                    <name language="es" value="GIUDECCA" />
+                    <name language="sl" value="GIUDECCA" />
+                    <name language="ja" value="GIUDECCA" />
+                    <name language="pl" value="GIUDECCA" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE10" />
+                <names>
+                    <name language="ru" value="LIDO" />
+                    <name language="fr" value="LIDO" />
+                    <name language="en" value="LIDO" />
+                    <name language="zh" value="LIDO" />
+                    <name language="hr" value="LIDO" />
+                    <name language="ca" value="LIDO" />
+                    <name language="de" value="LIDO" />
+                    <name language="it" value="LIDO" />
+                    <name language="pt-br" value="LIDO" />
+                    <name language="es" value="LIDO" />
+                    <name language="sl" value="LIDO" />
+                    <name language="ja" value="LIDO" />
+                    <name language="pl" value="LIDO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCEI37" />
+                <names>
+                    <name language="ru" value="PELLESTRINA" />
+                    <name language="fr" value="PELLESTRINA" />
+                    <name language="en" value="PELLESTRINA" />
+                    <name language="zh" value="PELLESTRINA" />
+                    <name language="hr" value="PELLESTRINA" />
+                    <name language="ca" value="PELLESTRINA" />
+                    <name language="de" value="PELLESTRINA" />
+                    <name language="it" value="PELLESTRINA" />
+                    <name language="pt-br" value="PELLESTRINA" />
+                    <name language="es" value="PELLESTRINA" />
+                    <name language="sl" value="PELLESTRINA" />
+                    <name language="ja" value="PELLESTRINA" />
+                    <name language="pl" value="PELLESTRINA" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE4" />
+                <names>
+                    <name language="ru" value="PIAZZALE ROMA" />
+                    <name language="fr" value="PIAZZALE ROMA" />
+                    <name language="en" value="PIAZZALE ROMA" />
+                    <name language="zh" value="PIAZZALE ROMA" />
+                    <name language="hr" value="PIAZZALE ROMA" />
+                    <name language="ca" value="PIAZZALE ROMA" />
+                    <name language="de" value="PIAZZALE ROMA" />
+                    <name language="it" value="PIAZZALE ROMA" />
+                    <name language="pt-br" value="PIAZZALE ROMA" />
+                    <name language="es" value="PIAZZALE ROMA" />
+                    <name language="sl" value="PIAZZALE ROMA" />
+                    <name language="ja" value="PIAZZALE ROMA" />
+                    <name language="pl" value="PIAZZALE ROMA" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE2" />
+                <names>
+                    <name language="ru" value="RIALTO" />
+                    <name language="fr" value="RIALTO" />
+                    <name language="en" value="RIALTO" />
+                    <name language="zh" value="RIALTO" />
+                    <name language="hr" value="RIALTO" />
+                    <name language="ca" value="RIALTO" />
+                    <name language="de" value="RIALTO" />
+                    <name language="it" value="RIALTO" />
+                    <name language="pt-br" value="RIALTO" />
+                    <name language="es" value="RIALTO" />
+                    <name language="sl" value="RIALTO" />
+                    <name language="ja" value="RIALTO" />
+                    <name language="pl" value="RIALTO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE13" />
+                <names>
+                    <name language="ru" value="SAN CLEMENTE" />
+                    <name language="fr" value="SAN CLEMENTE" />
+                    <name language="en" value="SAN CLEMENTE" />
+                    <name language="zh" value="SAN CLEMENTE" />
+                    <name language="hr" value="SAN CLEMENTE" />
+                    <name language="ca" value="SAN CLEMENTE" />
+                    <name language="de" value="SAN CLEMENTE" />
+                    <name language="it" value="SAN CLEMENTE" />
+                    <name language="pt-br" value="SAN CLEMENTE" />
+                    <name language="es" value="SAN CLEMENTE" />
+                    <name language="sl" value="SAN CLEMENTE" />
+                    <name language="ja" value="SAN CLEMENTE" />
+                    <name language="pl" value="SAN CLEMENTE" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE1" />
+                <names>
+                    <name language="ru" value="SAN MARCO" />
+                    <name language="fr" value="SAN MARCO" />
+                    <name language="en" value="SAN MARCO" />
+                    <name language="zh" value="SAN MARCO" />
+                    <name language="hr" value="SAN MARCO" />
+                    <name language="ca" value="SAN MARCO" />
+                    <name language="de" value="SAN MARCO" />
+                    <name language="it" value="SAN MARCO" />
+                    <name language="pt-br" value="SAN MARCO" />
+                    <name language="es" value="SAN MARCO" />
+                    <name language="sl" value="SAN MARCO" />
+                    <name language="ja" value="SAN MARCO" />
+                    <name language="pl" value="SAN MARCO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE14" />
+                <names>
+                    <name language="ru" value="SAN POLO" />
+                    <name language="fr" value="SAN POLO" />
+                    <name language="en" value="SAN POLO" />
+                    <name language="zh" value="SAN POLO" />
+                    <name language="hr" value="SAN POLO" />
+                    <name language="ca" value="SAN POLO" />
+                    <name language="de" value="SAN POLO" />
+                    <name language="it" value="SAN POLO" />
+                    <name language="pt-br" value="SAN POLO" />
+                    <name language="es" value="SAN POLO" />
+                    <name language="sl" value="SAN POLO" />
+                    <name language="ja" value="SAN POLO" />
+                    <name language="pl" value="SAN POLO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE3" />
+                <names>
+                    <name language="ru" value="SANTA LUCIA - STAZIONE" />
+                    <name language="fr" value="SANTA LUCIA - STAZIONE" />
+                    <name language="en" value="SANTA LUCIA - STAZIONE" />
+                    <name language="zh" value="SANTA LUCIA - STAZIONE" />
+                    <name language="hr" value="SANTA LUCIA - STAZIONE" />
+                    <name language="ca" value="SANTA LUCIA - STAZIONE" />
+                    <name language="de" value="SANTA LUCIA - STAZIONE" />
+                    <name language="it" value="SANTA LUCIA - STAZIONE" />
+                    <name language="pt-br" value="SANTA LUCIA - STAZIONE" />
+                    <name language="es" value="SANTA LUCIA - STAZIONE" />
+                    <name language="sl" value="SANTA LUCIA - STAZIONE" />
+                    <name language="ja" value="SANTA LUCIA - STAZIONE" />
+                    <name language="pl" value="SANTA LUCIA - STAZIONE" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE8" />
+                <names>
+                    <name language="ru" value="SS GIOVANNI E PAOLO" />
+                    <name language="fr" value="SS GIOVANNI E PAOLO" />
+                    <name language="en" value="SS GIOVANNI E PAOLO" />
+                    <name language="zh" value="SS GIOVANNI E PAOLO" />
+                    <name language="hr" value="SS GIOVANNI E PAOLO" />
+                    <name language="ca" value="SS GIOVANNI E PAOLO" />
+                    <name language="de" value="SS GIOVANNI E PAOLO" />
+                    <name language="it" value="SS GIOVANNI E PAOLO" />
+                    <name language="pt-br" value="SS GIOVANNI E PAOLO" />
+                    <name language="es" value="SS GIOVANNI E PAOLO" />
+                    <name language="sl" value="SS GIOVANNI E PAOLO" />
+                    <name language="ja" value="SS GIOVANNI E PAOLO" />
+                    <name language="pl" value="SS GIOVANNI E PAOLO" />
+                </names>
+            </zone>
+            <zone>
+                <code value="VCE12" />
+                <names>
+                    <name language="ru" value="ZATTERE" />
+                    <name language="fr" value="ZATTERE" />
+                    <name language="en" value="ZATTERE" />
+                    <name language="zh" value="ZATTERE" />
+                    <name language="hr" value="ZATTERE" />
+                    <name language="ca" value="ZATTERE" />
+                    <name language="de" value="ZATTERE" />
+                    <name language="it" value="ZATTERE" />
+                    <name language="pt-br" value="ZATTERE" />
+                    <name language="es" value="ZATTERE" />
+                    <name language="sl" value="ZATTERE" />
+                    <name language="ja" value="ZATTERE" />
+                    <name language="pl" value="ZATTERE" />
+                </names>
+            </zone>
+        </zones>
+    </response>
+</envelope>

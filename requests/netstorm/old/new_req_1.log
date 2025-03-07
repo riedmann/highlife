@@ -1,0 +1,27 @@
+18:24:03.218 [INFO ] [NETSTORMING] [BOOK] [6fc37edd70f44fdab559361e6946aacc] [REMOTE_HTTP_REQUEST_LOGGER] method=[POST]
+url=[https://test.netstorming.net/kalima/call.php] headers=[Content-Type=text/xml, Content-Length=609, ]
+body=[&lt;envelope&gt;&lt;header&gt;&lt;actor&gt;highlife&lt;/actor&gt;&lt;user&gt;xmluser&lt;/user&gt;&lt;password&gt;highxml&lt;/password&gt;&lt;version&gt;1.6.1&lt;/version&gt;
+&lt;timestamp&gt;20250203182403&lt;/timestamp&gt;&lt;/header&gt;&lt;query type=&quot;book&quot; product=&quot;hotel&quot;&gt;&lt;nationality&gt;AT&lt;/nationality&gt;&lt;search
+number=&quot;9186260&quot;/&gt;&lt;checkin date=&quot;2025-03-01&quot;/&gt;&lt;checkout date=&quot;2025-03-08&quot;/&gt;&lt;synchronous value=&quot;true&quot;/&gt;&lt;availonly
+value=&quot;true&quot;/&gt;&lt;hotel code=&quot;36051&quot; agreement=&quot;LCL.10000085&quot;/&gt;&lt;reference code=&quot;1738603439817001&quot;/&gt;&lt;details&gt;&lt;room
+type=&quot;dbl&quot;&gt;&lt;pax leader=&quot;true&quot; title=&quot;MR&quot; name=&quot;Wolfgang&quot; surname=&quot;PARIK&quot;/&gt;&lt;pax title=&quot;MR&quot; name=&quot;Jan&quot;
+surname=&quot;PARIK&quot;/&gt;&lt;/room&gt;&lt;/details&gt;&lt;/query&gt;&lt;/envelope&gt;]
+18:24:04.699 [INFO ] [NETSTORMING] [BOOK] [6fc37edd70f44fdab559361e6946aacc] [REMOTE_HTTP_RESPONSE_LOGGER] status=[200]
+duration=[1480ms] url=[https://test.netstorming.net/kalima/call.php] headers=[Content-Type=text/xml, Content-
+Length=1239, Date=Mon, 03 Feb 2025 17:24:03 GMT, Server=Apache/2.4.54 (Debian), Access-Control-Allow-Origin=*, Access-
+Control-Allow-Methods=POST, GET, OPTIONS, DELETE, PUT, Access-Control-Allow-Headers=append, delete, entries, foreach,
+get, has, keys, set, values, Authorization, Set-Cookie=towers_custom_network=deleted; Expires=Thu, 01 Jan 1970 00:00:01
+GMT; Max-Age=0, X-Product-Function=hotel/book, X-Actor-Login=highlife/xmluser, X-Qctl=0, X-Product-Type=hotel/book, X-
+IP-Customer-TotalTime=195.50.180.252/highlife/0.97248601913452, Vary=Accept-Encoding] body=[&lt;?xml version=&quot;1.0&quot;
+encoding=&quot;utf-8&quot; ?&gt;&lt;envelope&gt;&lt;header&gt;&lt;version port=&quot;4002&quot;
+host=&quot;ns002test.cloud.netstorming.net&quot;&gt;1.7.1&lt;/version&gt;&lt;timestamp&gt;20250203182403&lt;/timestamp&gt;&lt;/header&gt;&lt;response
+type=&quot;book&quot; product=&quot;hotel&quot;&gt;&lt;supplier code=&quot;B0225LELFF&quot;&gt;Demo TOWeRS&lt;/supplier&gt;&lt;booking code=&quot;B0225LELFF&quot;/&gt;&lt;invoiced
+by=&quot;xmlusers&quot;/&gt;&lt;status code=&quot;cnf&quot;/&gt;&lt;checkin date=&quot;2025-03-01&quot;/&gt;&lt;checkout date=&quot;2025-03-08&quot;/&gt;&lt;city code=&quot;vcei&quot;
+&gt;VENICE&lt;/city&gt;&lt;hotel code=&quot;36051&quot; agreement=&quot;LCL.10000085&quot; ctype=&quot;1337&quot; c_type=&quot;1337&quot; city=&quot;VCEI&quot; is_dynamic=&quot;false&quot;
+room_type=&quot;DOUBLE QUEEN ROOM&quot;/&gt;&lt;reference code=&quot;1738603439817001&quot; hcn=&quot;&quot;/&gt;&lt;currency code=&quot;EUR&quot;/&gt;&lt;roombasis meal=&quot;RO&quot;
+breakfast=&quot;X&quot;/&gt;&lt;deadline date=&quot;2025-02-27&quot;/&gt;&lt;nationality code=&quot;AT&quot;/&gt;&lt;details&gt;&lt;room type=&quot;dbl&quot; &gt;&lt;pax title=&quot;MR&quot;
+initial=&quot;Wolfgang&quot; surname=&quot;PARIK&quot; leader=&quot;true&quot; /&gt;&lt;pax title=&quot;MR&quot; initial=&quot;Jan&quot; surname=&quot;PARIK&quot; /&gt;&lt;prices&gt;&lt;roomprice
+nett=&quot;826.00&quot; gross=&quot;826.00&quot;&gt;&lt;bydate from=&quot;2025-03-04&quot; nett=&quot;118&quot; /&gt;&lt;bydate from=&quot;2025-03-05&quot; nett=&quot;118&quot; /&gt;&lt;bydate
+from=&quot;2025-03-06&quot; nett=&quot;118&quot; /&gt;&lt;bydate from=&quot;2025-03-07&quot; nett=&quot;118&quot; /&gt;&lt;bydate from=&quot;2025-03-01&quot; nett=&quot;118&quot; /&gt;&lt;bydate
+from=&quot;2025-03-02&quot; nett=&quot;118&quot; /&gt;&lt;bydate from=&quot;2025-03-03&quot; nett=&quot;118&quot;
+/&gt;&lt;/roomprice&gt;&lt;/prices&gt;&lt;/room&gt;&lt;/details&gt;&lt;/response&gt;&lt;/envelope&gt;]

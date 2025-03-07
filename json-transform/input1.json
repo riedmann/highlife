@@ -1,0 +1,13 @@
+{
+  "header": {
+    "target": "hyperguest",
+    "version": "1.6.3"
+  },
+  "request": {
+    "hotelId": 19912,
+    "checkIn": "2025-05-01",
+    "nights": 2,
+    "guests": 4,
+    "nationality": "DE"
+  }
+}

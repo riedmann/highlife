@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<envelope>
+    <header>
+        <version port="4002" host="ns002test.cloud.netstorming.net">1.7.1</version>
+        <timestamp>20250207103530</timestamp>
+    </header>
+    <response type="availability" product="hotel">
+        <search number="9205640" time="0.17" />
+        <nights number="7" />
+        <checkin date="2025-03-01" />
+        <checkout date="2025-03-08" />
+        <city code="VCEI" />
+        <hotels total="1">
+            <hotel code="36051" name="PALLADIO HOTEL &amp; SPA" stars="5" location="08"
+                address="Giudecca, 33, 30133" promo="false" city="VCEI">
+                <agreement id="LCL.10000086" available="true" room_basis="RO" meal_basis="X"
+                    ctype="1396" c_type="1396" room_type="Standard Room - Sgl/Dus Accommodation"
+                    is_dynamic="false" currency="EUR" deadline="2025-02-27" total="826.00"
+                    total_gross="826.00" original_total="826.00" special="false"
+                    is_fully_refundable="true">
+                    <deadline date="2025-02-27 00:00:00" value="2025-02-27 00:00:00" />
+                    <policies>
+                        <policy from="2025-02-27 00:00:00" percentage="14.29" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="STANDARD ROOM - SGL/DUS ACCOMMODATION" />
+                        <remark code="SYS_CONTRACT_TYPE"
+                            text="STANDARD ROOM - SGL/DUS ACCOMMODATION" />
+                    </remarks>
+                    <room type="dbl" required="1" occupancy="2">
+                        <price from="2025-03-01" to="2025-03-08">
+                            <roomprice nett="826.00" gross="826.00" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="LCL.10000085" available="true" room_basis="RO" meal_basis="X"
+                    ctype="1337" c_type="1337" room_type="Double Queen Room" is_dynamic="false"
+                    currency="EUR" deadline="2025-02-27" total="826.00" total_gross="826.00"
+                    original_total="826.00" special="false" is_fully_refundable="true">
+                    <deadline date="2025-02-27 00:00:00" value="2025-02-27 00:00:00" />
+                    <policies>
+                        <policy from="2025-02-27 00:00:00" percentage="14.29" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="DOUBLE QUEEN ROOM" />
+                        <remark code="SYS_CONTRACT_TYPE" text="DOUBLE QUEEN ROOM" />
+                    </remarks>
+                    <room type="dbl" required="1" occupancy="2">
+                        <price from="2025-03-01" to="2025-03-08">
+                            <roomprice nett="826.00" gross="826.00" />
+                        </price>
+                    </room>
+                </agreement>
+            </hotel>
+        </hotels>
+    </response>
+</envelope>

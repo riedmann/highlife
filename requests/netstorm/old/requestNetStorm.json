@@ -1,0 +1,44 @@
+{
+  "correlationId": "f1c5d1f9753e4062af977e5faff9517f",
+  "tag": null,
+  "suafHeader": {
+    "inventoryCode": "NETSTORMING",
+    "credentials": null,
+    "runTransactional": false,
+    "transactionId": null,
+    "languagePreference": "DE",
+    "currency": null,
+    "sourceMarket": null,
+    "warning": null
+  },
+  "startDate": [2023, 11, 6],
+  "endDate": [2023, 11, 9],
+  "geoAssignment": null,
+  "roomConfigurations": [
+    {
+      "participants": [
+        { "type": "ADULT", "age": 30 },
+        { "type": "ADULT", "age": 30 }
+      ],
+      "numberOfUnits": 1,
+      "roomConfigId": null,
+      "matchingRoomConfigIds": null
+    }
+  ],
+  "propertyCodes": ["55192"],
+  "maxHotels": null,
+  "roomCode": null,
+  "pollingInterval": null,
+  "pollingTimeout": null,
+  "noPolling": false,
+  "pollingOnly": false,
+  "propertyName": "",
+  "minStarRating": null,
+  "maxStarRating": null,
+  "mealTypeCodes": null,
+  "bestOfferPerHotel": false,
+  "searchRadius": null,
+  "cacheUsage": null,
+  "enableLowerOccupancy": false,
+  "accommodationTypes": null
+}
