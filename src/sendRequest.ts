@@ -1,11 +1,11 @@
+import type { ApiRequest } from "./types";
 const https = require("https");
-const zlib = require("zlib");
 const js2xmlparser = require("js2xmlparser");
 
-async function sendRequest(inhouseJson, callback) {
+async function sendRequest(inhouseJson: ApiRequest, callback: Function) {
   let body = JSON.stringify(inhouseJson.body);
 
-  if (inhouseJson.bodytype == "xml") {
+  if (inhouseJson.bodytype == "xml" && inhouseJson.xmlbody) {
     body = jsonToXml(inhouseJson.xmlbody);
   }
 
@@ -42,7 +42,7 @@ async function sendRequest(inhouseJson, callback) {
 
 module.exports = sendRequest;
 
-function jsonToXml(json) {
+function jsonToXml(json: object) {
   const xml = js2xmlparser.parse("envelope", json);
   return xml;
 }

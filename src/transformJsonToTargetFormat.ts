@@ -1,21 +1,18 @@
 const fs = require("fs");
 const path = require("path");
-const sendRequest = require("./sendRequest");
 
 // Load available transformations dynamically
 const transformations = {};
 const transformDir = path.join(__dirname, "transformers");
 fs.readdirSync(transformDir).forEach((file) => {
-  if (file.endsWith(".js")) {
-    const transformName = path.basename(file, ".js");
+  if (file.endsWith(".ts")) {
+    const transformName = path.basename(file, ".ts");
     transformations[transformName] = require(path.join(transformDir, file));
   }
 });
 
-module.exports = function transformJsonToTargetFormat(inputFilePath) {
+module.exports = function transformJsonToTargetFormat(jsonData) {
   // Read JSON file
-  const rawData = fs.readFileSync(inputFilePath, "utf-8");
-  const jsonData = JSON.parse(rawData);
 
   // Get transformation type from input JSON
   const transformType = jsonData.header.target;
@@ -24,6 +21,8 @@ module.exports = function transformJsonToTargetFormat(inputFilePath) {
     console.error(`❌ Error: Transformation '${transformType}' not found.`);
     process.exit(1);
   }
+
+  console.log("json", jsonData);
 
   // Apply selected transformation
   const transformedData = transformations[transformType](jsonData);

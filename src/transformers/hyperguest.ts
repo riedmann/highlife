@@ -1,6 +1,6 @@
-const { url } = require("inspector");
+import { ApiRequest, InhouseFormat } from "../types";
 
-module.exports = function basicTransform(json) {
+module.exports = function basicTransform(json: InhouseFormat) {
   return {
     url:
       "https://search-api.hyperguest.io/2.0/?checkIn=" +
