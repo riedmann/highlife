@@ -15,8 +15,6 @@ app.use(bodyParser.text({ type: "*/*" })); // Accepts any content type as plain 
 
 // Handle POST request
 app.post("/", async (req: any, res: any) => {
-  console.log(req.body);
-
   const result = transformJsonToTargetFormat(JSON.parse(req.body));
 
   let output: any = {};
@@ -24,11 +22,10 @@ app.post("/", async (req: any, res: any) => {
     // Call the sendRequest function and await the result
     const data = await sendRequestFunction(result);
     if (result.bodytype == "xml") {
-      console.log("its xml");
       const response = await convertXmlToJson(data);
       output = response;
     } else {
-      output = data;
+      output = JSON.parse(data);
     }
   } catch (error) {
     console.error("Error:", error);
