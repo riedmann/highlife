@@ -43,8 +43,6 @@ async function sendRequest(inhouseJson, callback) {
 module.exports = sendRequest;
 
 function jsonToXml(json) {
-  const xml = js2xmlparser.parse("envelope", json); // "root" is the XML root element
-
-  //const options = { compact: true, ignoreComment: true, spaces: 4 };
+  const xml = js2xmlparser.parse("envelope", json);
   return xml;
 }
