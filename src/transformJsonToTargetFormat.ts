@@ -20,8 +20,9 @@ module.exports = function transformJsonToTargetFormat(jsonData: any) {
   const transformType = jsonData.header.target;
 
   if (!transformations[transformType]) {
-    console.error(`❌ Error: Transformation '${transformType}' not found.`);
-    process.exit(1);
+    //console.error(`❌ Error: Transformation '${transformType}' not found.`);
+    throw new Error(`Error: Transformation '${transformType}' not found.`);
+    console.log("after throw");
   }
 
   console.log("json", jsonData);
