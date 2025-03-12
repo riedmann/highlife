@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const transformJsonToTargetFormat: any = require("./src/transformJsonToTargetFormat");
-const sendRequestFunction = require("./src/sendRequest");
+const sendHTTPRequest = require("./src/sendRequest");
 const convertXmlToJson = require("./src/xml2json");
 
 const app = express();
@@ -24,7 +24,7 @@ app.post("/", async (req: any, res: any) => {
     // Call the sendRequest function and await the result
     const targetRequest = transformJsonToTargetFormat(input, transformType);
 
-    const data = await sendRequestFunction(targetRequest);
+    const data = await sendHTTPRequest(targetRequest);
     if (targetRequest.bodytype == "xml") {
       const response = await convertXmlToJson(data);
       output = response;
@@ -32,7 +32,7 @@ app.post("/", async (req: any, res: any) => {
       output = JSON.parse(data);
     }
 
-    output = transformJsonToTargetFormat(output, transformType + "BACK");
+    //output = transformJsonToTargetFormat(output, transformType + "BACK");
   } catch (error) {
     console.error("Error:", error);
     output = "problem..." + error;
