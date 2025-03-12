@@ -11,13 +11,16 @@ fs.readdirSync(transformDir).forEach((file: any) => {
   }
 });
 
-module.exports = function transformJsonToTargetFormat(jsonData: any) {
+module.exports = function transformJsonToTargetFormat(
+  jsonData: any,
+  transformType: string
+) {
   // Read JSON file
 
   console.log("inside transform", jsonData);
 
   // Get transformation type from input JSON
-  const transformType = jsonData.header.target;
+  //const transformType = jsonData.header.target;
 
   if (!transformations[transformType]) {
     //console.error(`❌ Error: Transformation '${transformType}' not found.`);
