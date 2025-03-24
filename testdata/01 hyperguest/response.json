@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "propertyId": 19912,
+      "propertyInfo": {
+        "name": "Certification Property",
+        "starRating": 4,
+        "cityName": "Springfield, MA",
+        "cityId": 15872,
+        "countryCode": "US",
+        "regionName": "MA",
+        "longitude": -72.5783462524414,
+        "latitude": 42.088539123535156,
+        "propertyType": 11,
+        "propertyTypeName": "Hotel"
+      },
+      "remarks": [
+        "This is a general message that should be shown to the user before and after they make a reservation!",
+        "ewgretbrnrtn erth ehn  ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn ewgretbrnrtn erth ehn "
+      ],
+      "rooms": []
+    }
+  ],
+  "timeStamp": "2025-03-24T12:24:57.220Z"
+}

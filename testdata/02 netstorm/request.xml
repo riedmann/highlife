@@ -1,0 +1,21 @@
+<envelope>
+    <header>
+        <actor>highlife1</actor>
+        <user>xmluser</user>
+        <password>High_Life!</password>
+        <version>1.6.3</version>
+    </header>
+    <query type="availability" product="hotel">
+        <nationality>AT</nationality>
+        <filters>
+            <filter>AVAILONLY</filter>
+            <filter>BESTARRANGMENT</filter>
+        </filters>
+        <checkin date="2025-07-14" />
+        <checkout date="2025-07-21" />
+        <hotel id="898747" />
+        <details>
+            <room type="twn" required="1" occupancy="2" />
+        </details>
+    </query>
+</envelope>

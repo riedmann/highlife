@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<envelope>
+    <header>
+        <version port="5000" host="172.19.32.79">1.7.1</version>
+        <timestamp>20250324133259</timestamp>
+    </header>
+    <response type="availability" product="hotel">
+        <search number="20251396304051889" time="1.84" />
+        <nights number="7" />
+        <checkin date="2025-07-14" />
+        <checkout date="2025-07-21" />
+        <hotels total="1">
+            <hotel code="898747" name="DUNAS DE FORMENTERA HOTEL" stars="5" location="09"
+                address="Lugar Venda de ses Clotades, 4449, 07872 FORMENTERA, BALEARIC ISLANDS, 07860"
+                promo="false" city="FORM">
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NTFhM2Rl.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Junior Suite With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-06-26" total="7206.80" total_gross="7206.80"
+                    original_total="7206.80" special="false" is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Junior Suite with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Junior Suite with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="1004.40" gross="1004.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="1004.40" gross="1004.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="1004.40" gross="1004.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="1004.40" gross="1004.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1092.40" gross="1092.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1092.40" gross="1092.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="1004.40" gross="1004.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.MDNmNDQx.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Suite With Panoramic Sea View" is_dynamic="true" currency="EUR"
+                    deadline="2025-03-23" total="10265.20" total_gross="10265.20"
+                    original_total="10265.20" special="false" is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Suite with Panoramic Sea View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Suite with Panoramic Sea View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="1450.00" gross="1450.00" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="1450.00" gross="1450.00" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="1450.00" gross="1450.00" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="1450.00" gross="1450.00" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1507.60" gross="1507.60" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1507.60" gross="1507.60" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="1450.00" gross="1450.00" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NzVjYjIy.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7" room_type="Studio"
+                    is_dynamic="true" currency="EUR" deadline="2025-03-23" total="5001.20"
+                    total_gross="5001.20" original_total="5001.20" special="false"
+                    is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Studio" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Studio" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="701.20" gross="701.20" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="701.20" gross="701.20" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="701.20" gross="701.20" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="695.60" gross="695.60" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="753.20" gross="753.20" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="753.20" gross="753.20" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="695.60" gross="695.60" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NWFlNWQw.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Suite With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-06-26" total="12006.80" total_gross="12006.80"
+                    original_total="12006.80" special="false" is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Suite with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Suite with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="1692.40" gross="1692.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="1692.40" gross="1692.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="1692.40" gross="1692.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="1692.40" gross="1692.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1772.40" gross="1772.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1772.40" gross="1772.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="1692.40" gross="1692.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.MDNmNDQx.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Suite With Panoramic Sea View" is_dynamic="true" currency="EUR"
+                    deadline="2025-06-26" total="14246.80" total_gross="14246.80"
+                    original_total="14246.80" special="false" is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Suite with Panoramic Sea View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Suite with Panoramic Sea View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="2012.40" gross="2012.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="2012.40" gross="2012.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="2012.40" gross="2012.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="2012.40" gross="2012.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="2092.40" gross="2092.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="2092.40" gross="2092.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="2012.40" gross="2012.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.ZWY3MTYw.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Double Room With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-06-26" total="6374.80" total_gross="6374.80"
+                    original_total="6374.80" special="false" is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Double Room with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Double Room with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="892.40" gross="892.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="892.40" gross="892.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="892.40" gross="892.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="884.40" gross="884.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="964.40" gross="964.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="964.40" gross="964.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="884.40" gross="884.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NzVjYjIy.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7" room_type="Studio"
+                    is_dynamic="true" currency="EUR" deadline="2025-06-26" total="6934.80"
+                    total_gross="6934.80" original_total="6934.80" special="false"
+                    is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Studio" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Studio" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="972.40" gross="972.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="972.40" gross="972.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="972.40" gross="972.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="964.40" gross="964.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1044.40" gross="1044.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1044.40" gross="1044.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="964.40" gross="964.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.OTU4NmU0.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Junior Suite With Sea View" is_dynamic="true" currency="EUR"
+                    deadline="2025-03-23" total="7011.60" total_gross="7011.60"
+                    original_total="7011.60" special="false" is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Junior Suite with Sea View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Junior Suite with Sea View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="983.60" gross="983.60" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="983.60" gross="983.60" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="983.60" gross="983.60" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="983.60" gross="983.60" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1046.80" gross="1046.80" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1046.80" gross="1046.80" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="983.60" gross="983.60" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NTFhM2Rl.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Junior Suite With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-03-23" total="5726.80" total_gross="5726.80"
+                    original_total="5726.80" special="false" is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Junior Suite with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Junior Suite with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="798.00" gross="798.00" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="798.00" gross="798.00" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="798.00" gross="798.00" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="798.00" gross="798.00" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="868.40" gross="868.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="868.40" gross="868.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="798.00" gross="798.00" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.OTU4NmU0.NGU0MDEw" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Junior Suite With Sea View" is_dynamic="true" currency="EUR"
+                    deadline="2025-06-26" total="9726.80" total_gross="9726.80"
+                    original_total="9726.80" special="false" is_fully_refundable="true">
+                    <deadline date="2025-06-26 12:00:00" value="2025-06-26 12:00:00" />
+                    <policies>
+                        <policy from="2025-06-26 12:00:00" percentage="50" />
+                        <policy from="2025-07-03 12:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Junior Suite with Sea View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Junior Suite with Sea View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="1364.40" gross="1364.40" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="1364.40" gross="1364.40" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="1364.40" gross="1364.40" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="1364.40" gross="1364.40" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1452.40" gross="1452.40" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1452.40" gross="1452.40" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="1364.40" gross="1364.40" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.NWFlNWQw.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Suite With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-03-23" total="8652.40" total_gross="8652.40"
+                    original_total="8652.40" special="false" is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER" text="Suite with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Suite with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="1219.60" gross="1219.60" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="1219.60" gross="1219.60" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="1219.60" gross="1219.60" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="1219.60" gross="1219.60" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="1277.20" gross="1277.20" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="1277.20" gross="1277.20" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="1219.60" gross="1219.60" />
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="0xt3.898747.7.RB.C.ODExN2Fi.ZWY3MTYw.MTdmYWZk" available="true"
+                    room_basis="RB" meal_basis="C" ctype="7" c_type="7"
+                    room_type="Double Room With Dunes View" is_dynamic="true" currency="EUR"
+                    deadline="2025-03-23" total="4598.00" total_gross="4598.00"
+                    original_total="4598.00" special="false" is_fully_refundable="false">
+                    <deadline date="2025-03-23 11:00:00" value="2025-03-23 11:00:00" />
+                    <policies>
+                        <policy from="2025-03-23 11:00:00" percentage="100" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="VAT of 10% per room per night (Included in price)" />
+                        <remark
+                            text="Tasa Turística of 2.2 EUR per person per night (Included in price)" />
+                        <remark code="SYS_CTYPE_NAME_FOR_CUSTOMER"
+                            text="Double Room with Dunes View" />
+                        <remark code="SYS_CONTRACT_TYPE" text="Double Room with Dunes View" />
+                        <remark code="SYS_LICENCE_NUMBER" text="Licence number:  AMP-1588" />
+                    </remarks>
+                    <room type="twn" required="1" occupancy="2">
+                        <price from="2025-07-14" to="2025-07-15">
+                            <roomprice nett="643.60" gross="643.60" />
+                        </price>
+                        <price from="2025-07-15" to="2025-07-16">
+                            <roomprice nett="643.60" gross="643.60" />
+                        </price>
+                        <price from="2025-07-16" to="2025-07-17">
+                            <roomprice nett="643.60" gross="643.60" />
+                        </price>
+                        <price from="2025-07-17" to="2025-07-18">
+                            <roomprice nett="638.00" gross="638.00" />
+                        </price>
+                        <price from="2025-07-18" to="2025-07-19">
+                            <roomprice nett="695.60" gross="695.60" />
+                        </price>
+                        <price from="2025-07-19" to="2025-07-20">
+                            <roomprice nett="695.60" gross="695.60" />
+                        </price>
+                        <price from="2025-07-20" to="2025-07-21">
+                            <roomprice nett="638.00" gross="638.00" />
+                        </price>
+                    </room>
+                </agreement>
+            </hotel>
+        </hotels>
+    </response>
+</envelope>

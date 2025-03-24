@@ -1,0 +1,1 @@
+https://search-api.hyperguest.io/2.0/?checkIn=2025-05-01&nights=2&guests=1&hotelIds=19912&customerNationality=DE
